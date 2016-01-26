@@ -1,0 +1,33 @@
+.main-header{
+	margin-bottom: 25px;
+}
+.main-header__menu{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main-header__logotype{
+	float: left;
+	margin-top: 60px;
+	margin-left: 48px;
+	width: 150px;
+}
+.main-header__logo{
+	display: block;
+	width: 154px;
+	height: 52px;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
+.main-header__stamp{
+	float: right;
+	margin-top: 48px;
+	margin-right: 50px;
+}
+.main-header__case{
+	font-family: "Myriad Pro Regular", sans-serif;
+	font-size: 10px;
+	color: #2f1b15;
+	margin-left: 5px;
+	display: inline-block;
+}

@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow {
+    width: 17px;
+    height: 14px;
+    background-position: -5px -5px;
+}
+
+.sprite-check {
+    width: 19px;
+    height: 18px;
+    background-position: -32px -5px;
+}
+
+.sprite-ckecked {
+    width: 24px;
+    height: 28px;
+    background-position: -61px -5px;
+}
+
+.sprite-radio {
+    width: 41px;
+    height: 45px;
+    background-position: -5px -33px;
+}
+
+.sprite-radio-checked {
+    width: 41px;
+    height: 45px;
+    background-position: -95px -5px;
+}

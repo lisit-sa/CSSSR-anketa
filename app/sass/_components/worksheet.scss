@@ -1,0 +1,51 @@
+.worksheet-left__list{
+	font-family: 'pt_sansbold';
+	font-size: 22px;
+	color: #2f1b15;
+	padding: 0;
+}
+.worksheet-left__item{
+	height: 60px;
+	margin-bottom: 0;
+}
+.worksheet-left__item-left{
+	font-weight: 700;
+	display: inline-block;
+	margin: 0;
+}
+.worksheet-left__item-right{
+	margin-left: 5px;
+	padding-left: 12px;
+	font-family: 'Courier New';
+	color: #231f20;
+	font-size: 30px;
+	background: inherit;
+	border: none;
+	position: relative;
+	top: -10px;
+	padding-bottom: 10px;
+	&:focus{
+		outline: none;
+	}
+	&:active{
+		outline: none;
+	}
+	background: url('../img/line.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.worksheet-left__item-right--fio {
+	width: 625px;
+}
+.worksheet-left__item-right--year{
+	width: 620px;
+}
+.worksheet-left__item-right--city{
+	width: 575px;
+}
+.worksheet-left__item-right--skype{
+	width: 695px;
+}
+.worksheet-left__item-right--mail{
+	width: 700px;
+}

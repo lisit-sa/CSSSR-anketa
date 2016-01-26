@@ -1,0 +1,105 @@
+.practice-header{
+	font-family: 'pt_sansbold';
+	font-size: 22px;
+	color: #2f1b15;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.practice__comment{
+	margin-left: 25px;
+	color: #3d3d3d;
+	font-size: 14px;
+	font-family: 'pt_sansregular';
+	line-height: 22px;
+}
+.practice__comment:before{
+	content: '*';
+	font-size: 25px;
+	font-weight: 400;
+	position: relative;
+	top: 8px;
+	margin-left: -20px;
+	margin-right: 5px;
+}
+.practice__selection{
+	padding: 0;
+	margin-bottom: 65px;
+	ul{
+		padding: 0;
+	}
+}
+.practice__item{
+	font-family: 'pt_sansbold';
+	font-weight: 700;
+	font-size: 21px;
+	color: #2f1b15;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+.practice__list_left-column{
+	-moz-column-count: 3; /* Для Firefox */
+    -webkit-column-count: 3; /* Для Safari и Chrome */
+    column-count: 3;
+}
+input[type="checkbox"]{
+	display: none;
+}
+input[type="checkbox"] + label{
+	display: inline-block;
+	vertical-align: top;
+}
+input[type="checkbox"] + label:before{
+	content: '';
+	background: url("../img/spritesheet.png");
+	width: 19px;
+    height: 18px;
+    background-position: -32px -5px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+input[type="checkbox"]:checked + label:before{
+	content: '';
+	background: url("../img/spritesheet.png");
+	width: 24px;
+    height: 28px;
+    background-position: -61px -5px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 0;
+    margin-top: -10px;
+}
+.date-write__list{
+	margin-bottom: 75px;
+}
+.date-write__item-date{
+	background: inherit;
+	border: none;
+	color: #231f20;
+	margin-left: 20px;
+	padding-left: 15px;
+	font-family: 'Courier New';
+	width: 215px;
+	font-size: 30px;
+	position: relative;
+	top: -10px;
+	padding-bottom: 10px;
+	background: url('../img/line.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	&:active{
+		outline: none;
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.date-write__item-write{
+	font-family: 'pt_sansbold';
+	font-size: 22px;
+	color: #2f1b15;
+	font-weight: 700;
+}

@@ -1,0 +1,39 @@
+@import "../bower/normalize-css/normalize.css";
+
+@import "_components/sprite";
+
+@import "_mixins/clearfix";
+
+@import "_layout/layout";
+
+@import "_main/fonts";
+
+@import "_components/header";
+@import "_components/worksheet";
+@import "_components/studies";
+@import "_components/practice";
+@import "_components/practice-js";
+
+
+
+html {
+	font-size: 14px;
+}
+body {
+	background: url("../img/layer.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.clearfix {
+	@include clearfix;
+}
+.main-container{
+	width: 775px;
+	margin: 0 auto;
+}
+.main-container__case{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 68px;
+}

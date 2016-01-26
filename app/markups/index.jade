@@ -1,0 +1,16 @@
+doctype html
+html(lang="ru-Ru")
+	include ../markups/_pages/head
+	body
+		include ../markups/_pages/header
+		div.wrapper
+			div.main-container.clearfix
+				img.main-container__case(src="img/case.png" alt='case')
+				include ../markups/_pages/worksheet
+				include ../markups/_pages/studies
+				include ../markups/_pages/practice
+				include ../markups/_pages/practice-js
+				div.date-write__list
+					span.date-write__item-write Дата заполнения
+					input(type="text" value="25.01.2016").date-write__item-date
+		script(src = "js/main.js")

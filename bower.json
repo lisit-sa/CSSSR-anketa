@@ -1,7 +1,8 @@
 {
-  "name": "anketa",
+  "name": "watermarks",
   "dependencies": {
-    "jquery": "1.8",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "~3.0.3",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4"
   }
 }
