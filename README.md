@@ -1,6 +1,6 @@
 > Test-questionary for IT company CSSSR, was made using JADE & SCSS
 
-> Инструкции по установке моего приложения
+> Installation:
 
 1. git clone https://github.com/username/repo.git anketa
 2. cd anketa
