@@ -1,4 +1,4 @@
-> Анкета для компании CSSSR, создана с использованием технологий JADE и SCSS
+> Test-questionary for IT company CSSSR, was made using JADE & SCSS
 
 > Инструкции по установке моего приложения
 
